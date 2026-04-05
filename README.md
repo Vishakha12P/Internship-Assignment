@@ -142,16 +142,16 @@ results = model.track(
 
 ## 🧠 Model / Tracker Choice
 
-# 🔍 Model Used:
+🔍 Model Used:
 * YOLOv8 (You Only Look Once v8)
 * 
-# Why YOLOv8?
+Why YOLOv8?
 * Real-time performance
 * High accuracy on small + large objects
 * Easy integration with tracking pipelines
 * Pretrained weights available
   
-# 🎯 Tracker Used:
+🎯 Tracker Used:
 * ByteTrack (default in YOLOv8 tracking)
 * Why ByteTrack?
 * Maintains identity consistency even during occlusions
