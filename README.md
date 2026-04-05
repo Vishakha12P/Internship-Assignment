@@ -50,7 +50,33 @@ project/
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation Steps
+1️⃣ Clone the Repository
+        * git clone https://github.com/your-username/your-repo-name.git
+        * cd your-repo-name
+2️⃣ Create Virtual Environment (Recommended)
+        * python -m venv venv
+3️⃣ Activate Environment
+* Windows:
+     venv\Scripts\activate
+
+* Mac/Linux:
+     source venv/bin/activate
+
+4️⃣ Install Dependencies
+      pip install -r requirements.txt
+
+## 📦 Dependencies
+
+Main libraries used:
+
+* ultralytics (YOLOv8)
+* opencv-python
+* numpy
+* torch
+* matplotlib (optional for visualization)
+
+Install manually if needed:
 
 ```bash
 pip install ultralytics opencv-python matplotlib
@@ -97,6 +123,50 @@ python main.py
 7. Store results for analysis
 8. Generate visualization graph
 9. Save annotated video
+
+---
+
+## ▶️ How to Run Pipeline
+
+Run the detection + tracking pipeline:
+
+from ultralytics import YOLO
+
+model = YOLO("yolov8l.pt")
+
+results = model.track(
+    source="Dataset_videos/video_1.mp4",
+    save=True
+)
+
+---
+
+## 🧠 Model / Tracker Choice
+
+# 🔍 Model Used:
+* YOLOv8 (You Only Look Once v8)
+* 
+# Why YOLOv8?
+* Real-time performance
+* High accuracy on small + large objects
+* Easy integration with tracking pipelines
+* Pretrained weights available
+  
+# 🎯 Tracker Used:
+* ByteTrack (default in YOLOv8 tracking)
+* Why ByteTrack?
+* Maintains identity consistency even during occlusions
+* Works well in crowded scenes
+* Lightweight and fast
+
+---
+
+## 📌 Assumptions Taken
+
+* Input videos are clear and not heavily blurred
+* Objects of interest (players/targets) are visible in frame
+* Camera is mostly stationary or has slow movement
+* Pretrained YOLO model is sufficient (no full custom retraining assumed)
 
 ---
 
