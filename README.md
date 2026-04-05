@@ -65,6 +65,8 @@ Activate Environment
 Install Dependencies
 * pip install -r requirements.txt
 
+---
+
 ## 📦 Dependencies
 
 Main libraries used:
@@ -88,26 +90,6 @@ pip install ultralytics opencv-python matplotlib
 ```bash
 python main.py
 ```
-
----
-
-## 🎥 Output
-
-### 1️⃣ Annotated Video
-
-* Bounding boxes around players
-* Unique tracking IDs
-* Real-time player count
-
-📁 Output file: `annotated_output.mp4`
-
----
-
-### 2️⃣ Player Count Over Time
-
-* Graph showing number of detected players per frame
-
-📁 Output file: `count_plot.png`
 
 ---
 
@@ -140,6 +122,24 @@ results = model.track(
 
 ---
 
+## 📌 Assumptions Taken
+
+* Input videos are clear and not heavily blurred
+* Objects of interest (players/targets) are visible in frame
+* Camera is mostly stationary or has slow movement
+* Pretrained YOLO model is sufficient (no full custom retraining assumed)
+
+---
+
+## ⚠️ Limitations
+
+* ❌ Difficulty detecting small objects (e.g., ball)
+* ⚠️ ID switching in crowded or occluded scenes
+* ⏳ Performance drops with high-density frames
+
+---
+
+
 ## 🧠 Model / Tracker Choice
 
 # 🔍 Model Used:
@@ -160,32 +160,6 @@ results = model.track(
 
 ---
 
-## 📌 Assumptions Taken
-
-* Input videos are clear and not heavily blurred
-* Objects of interest (players/targets) are visible in frame
-* Camera is mostly stationary or has slow movement
-* Pretrained YOLO model is sufficient (no full custom retraining assumed)
-
----
-
-## ⚠️ Limitations
-
-* ❌ Difficulty detecting small objects (e.g., ball)
-* ⚠️ ID switching in crowded or occluded scenes
-* ⏳ Performance drops with high-density frames
-
----
-
-## 🔧 Improvements Implemented
-
-* ✔ Integrated ByteTrack for stable tracking
-* ✔ Applied class filtering (person and object(ball) only)
-* ✔ Added real-time player counting
-* ✔ Generated time-series visualization
-
----
-
 ## 🔮 Feature Enhancements
 
 * 🏀 Ball detection and tracking
@@ -196,7 +170,23 @@ results = model.track(
 * 📌 Deployment as notebook
 
 ---
+## 🎥 Output
 
+### 1️⃣ Annotated Video
+
+* Bounding boxes around players
+* Unique tracking IDs
+* Real-time player count
+
+📁 Output file: `annotated_output.mp4`
+
+---
+
+### 2️⃣ Player Count Over Time
+
+* Graph showing number of detected players per frame
+
+📁 Output file: `count_plot.png`
 ## 📸 Results
 
 * Annotated video frame screenshot
