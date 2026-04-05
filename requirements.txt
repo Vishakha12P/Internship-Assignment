@@ -1,6 +1,0 @@
-streamlit
-ultralytics
-opencv-python-headless
-lapx
-numpy
-scipy
