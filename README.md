@@ -111,7 +111,7 @@ python main.py
 ## 🔧 Improvements Implemented
 
 * ✔ Integrated ByteTrack for stable tracking
-* ✔ Applied class filtering (person only)
+* ✔ Applied class filtering (person and object(ball) only)
 * ✔ Added real-time player counting
 * ✔ Generated time-series visualization
 
@@ -140,6 +140,13 @@ python main.py
 * Ultralytics YOLOv8
 * OpenCV
 * Matplotlib
+
+---
+
+📊 Evaluation Insight
+
+The system was evaluated visually by checking ID consistency across frames and tracking stability during occlusion and fast motion scenarios.
+Performance was assessed based on detection accuracy, tracking continuity, and smoothness of ID assignment.
 
 ---
 
