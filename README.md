@@ -14,6 +14,8 @@ Each detected player is assigned a **unique tracking ID**, enabling consistent t
 The system also performs **temporal analysis** by plotting the number of detected players over time.
 
 ---
+🎥 Demo Video
+<p align="center"> <a href="https://drive.google.com/file/d/1r1gbTvPkZ4iJl9fLBvdvbsPDzrrsD77L/view?usp=sharing"> <img src="https://img.shields.io/badge/▶️ Watch%20Demo%20Video-blue?style=for-the-badge" alt="Watch Demo Video"> </a> </p>
 
 ## 🚀 Key Features
 - 🔍 Real-time player detection using YOLOv8  
