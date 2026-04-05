@@ -143,7 +143,7 @@ python main.py
 
 ---
 
-📊 Evaluation Insight
+## 📊 Evaluation Insight
 
 The system was evaluated visually by checking ID consistency across frames and tracking stability during occlusion and fast motion scenarios.
 Performance was assessed based on detection accuracy, tracking continuity, and smoothness of ID assignment.
