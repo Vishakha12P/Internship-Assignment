@@ -55,7 +55,7 @@ while cap.isOpened():
     results = model.track(
         frame,
         persist=True,
-        classes=[0],
+        classes=[0, 32],  # 0=person, 32=sports ball
         conf=0.3,
         tracker="bytetrack.yaml"
     )
