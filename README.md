@@ -16,6 +16,17 @@ The system also performs **temporal analysis** by plotting the number of detecte
 ---
 🎥 Demo Video
 <p align="center"> <a href="https://drive.google.com/file/d/1r1gbTvPkZ4iJl9fLBvdvbsPDzrrsD77L/view?usp=sharing"> <img src="https://img.shields.io/badge/▶️ Watch%20Demo%20Video-blue?style=for-the-badge" alt="Watch Demo Video"> </a> </p>
+---
+## 📸 Screenshots
+
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1mNEP9Qxp6UfiMcowYQEnLkTi8T4ZVnxK?usp=sharing">
+    <img src="https://img.shields.io/badge/📸 View%20Project%20Screenshots-blue?style=for-the-badge" />
+  </a>
+</p>
+
+<p align="center"><b>Click to explore all screenshots</b></p>
+----
 
 ## 🚀 Key Features
 - 🔍 Real-time player detection using YOLOv8  
