@@ -1,8 +1,8 @@
-streamlit
-ultralytics
-opencv-python-headless
-torch
-torchvision
+streamlit==1.33.0
+ultralytics==8.2.0
+opencv-python-headless==4.9.0.80
+torch==2.0.0
+torchvision==0.15.1
 lapx
-scipy
 numpy
+scipy
