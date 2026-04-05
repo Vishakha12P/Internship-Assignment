@@ -1,8 +1,3 @@
-Here’s a **cleaner, more professional, recruiter-level README.md** you can directly use 👇 (slightly upgraded from yours with better structure, badges, and polish)
-
----
-
-```markdown
 # 🎯 Multi-Object Detection & Tracking in Sports Video
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -122,23 +117,21 @@ python main.py
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Feature Enhancements
 
 * 🏀 Ball detection and tracking
 * 📍 Player trajectory mapping
 * 🔥 Heatmap visualization
 * 📈 Advanced player analytics
 * ⚡ Real-time optimization
+* 📌 Deployment as notebook
 
 ---
 
 ## 📸 Results
 
-> 📌 Add these for best impact:
-
 * Annotated video frame screenshot
 * Count graph (`count_plot.png`)
-* Optional: GIF preview (highly recommended)
 
 ---
 
