@@ -51,20 +51,19 @@ project/
 ---
 
 ## ⚙️ Installation Steps
-1️⃣ Clone the Repository
-        * git clone https://github.com/your-username/your-repo-name.git
-        * cd your-repo-name
-2️⃣ Create Virtual Environment (Recommended)
-        * python -m venv venv
-3️⃣ Activate Environment
-* Windows:
-     venv\Scripts\activate
+Clone the Repository
+* git clone https://github.com/your-username/your-repo-name.git
+* cd your-repo-name
+  
+Create Virtual Environment (Recommended)
+* python -m venv venv
+  
+Activate Environment
+* Windows:venv\Scripts\activate
+* Mac/Linux:source venv/bin/activate
 
-* Mac/Linux:
-     source venv/bin/activate
-
-4️⃣ Install Dependencies
-      pip install -r requirements.txt
+Install Dependencies
+* pip install -r requirements.txt
 
 ## 📦 Dependencies
 
